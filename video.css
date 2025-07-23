@@ -1,6 +1,6 @@
 /* 다크모드 */
 body {
-    background-color: black;
+    background-color: #0F0F0F;
 }
 
 /* 전체 컨테이너 */
@@ -10,7 +10,7 @@ body {
 
 /* 상단 네비게이션 바 배경 항상 유지 */
 .navbar {
-    background-color : black;
+    background-color : #0F0F0F;
 }
 
 /* 유튜브 로고 이미지 크기 */
@@ -34,7 +34,7 @@ body {
 }
 
 /* 흰색 아이콘 */
-.btn, .nav-link {
+.btn, .nav-link, .video-info, .comments-section{
     color: white;
 }
 
@@ -46,7 +46,7 @@ body {
 
 /* 상단 검색창 입력부 */
 .search-bar-input, .search-bar-input:focus {
-    background-color: #000;
+    background-color: #0F0F0F;
     border-color: #6e6e6e;
     border-radius: 2rem;
     color: #bbb;
@@ -57,11 +57,13 @@ body {
     color: #bbb;
 }
 
+/* 영상 */
 .video-container {
     width: 70%;
     padding: 20px;
 }
 
+/* 임베디드 영상 */
 .video-player {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -75,11 +77,58 @@ body {
     height: 100%;
 }
 
+/* 우측 사이드바 */
 .sidebar {
     width: 30%;
     padding: 20px;
 }
 
+/* 사이드바 요소 */
 .sidebar .card {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    border: 0;
+}
+
+.video-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #282828;
+}
+
+.video-info h1 {
+    font-size: 1.5rem;
+}
+
+.channel-info p {
+    margin: 0;
+}
+
+#video-description {
+    margin: 1.5rem 0 0 0;
+}
+
+.comments-section {
+    margin-top: 3rem;
+}
+
+.add-comment {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.add-comment input, .add-comment input:focus {
+    flex: 1;
+    margin: 1rem 1rem 1rem 0;
+    background-color: #222;
+    border: 0;
+    color: white;
+}
+
+.add-comment input::placeholder {
+    color: #aaa;
+}
+
+#comments-list li {
+    margin-bottom: 0.5rem;
 }

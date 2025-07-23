@@ -1,6 +1,6 @@
 /* 다크모드 */
 body {
-    background-color: black;
+    background-color: #0F0F0F;
 }
 
 /* 전체 컨테이너 */
@@ -10,7 +10,7 @@ body {
 
 /* 상단 네비게이션 바 배경 항상 유지 */
 .navbar {
-    background-color : black;
+    background-color : #0F0F0F;
 }
 
 /* 유튜브 로고 이미지 크기 */
@@ -46,7 +46,7 @@ body {
 
 /* 상단 검색창 입력부 */
 .search-bar-input, .search-bar-input:focus {
-    background-color: #000;
+    background-color: #0F0F0F;
     border-color: #6e6e6e;
     border-radius: 2rem;
     color: #bbb;
@@ -65,7 +65,7 @@ body {
 
 /* 사이드바 구분선 */
 .sidebar hr {
-    border-top: 0.1rem solid #666;
+    border-top: 0.05rem solid #666;
     opacity: 1;
 }
 
@@ -73,4 +73,9 @@ body {
 .main-content {
     width: 85%;
     margin-left: 15%;
+}
+
+.card {
+    border: 0;
+    margin-bottom: 1rem;
 }
