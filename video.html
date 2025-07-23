@@ -17,15 +17,15 @@
 
             <div class="d-flex">
                 <!-- 햄버거 버튼 (사이드바 토글) -->
-                <button class="btn text-white" id="sidebar-toggle">
+                <button class="btn hamburger">
                     <i class="material-icons">menu</i>
                 </button>
                 <!-- 유튜브 로고 -->
-                <a class="navbar" href="#" id="youtubeLogo">
-                    <img src="./resources/youtube_logo.png" alt="YouTube Logo" style="height: 60px;">
+                <a href="./index.html">
+                    <img class="logo-image" src="./resources/youtube_logo.png" alt="YouTube Logo">
                 </a>
             </div>
-
+            
             <!-- 검색 바 -->
             <div class="search-bar">
                 <form class="d-flex">
@@ -38,33 +38,32 @@
 
             <!-- 사용자 아이콘 및 알림 -->
             <div class="d-flex">
-                <button class="btn btn-link text-white">
+                <button class="btn">
                     <i class="material-icons">add</i>
                 </button>
-                <button class="btn btn-link text-white">
+                <button class="btn">
                     <i class="material-icons">notifications</i>
                 </button>
-                <button class="btn btn-link text-white">
+                <button class="btn">
                     <i class="material-icons">account_circle</i>
                 </button>
             </div>
         </div>
     </nav>
 
-    <div class="d-flex">
+    <div class="container">
         <!-- 영상 -->
-        <main class="main-content p-4">
-            <div class="imbed-video">
-                <iframe src="https://www.youtube.com/embed/p-TzhoovtlE?si=rURQeKqCCAqWWiNj"
+        <main class="video-container">
+            <div class="video-player">
+                <iframe src=""
                     title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    allowfullscreen></iframe>
             </div>
         </main>
 
         <!-- 오른쪽 사이드바 -->
-        <aside class="sidebar" id="sidebar">
-            <div id="video-grid">
+        <aside class="sidebar">
+            <div>
                 <div>
                     <a href="video.html?videoId=슥슥이" class="text-decoration-none">
                         <div class="card bg-dark text-white">
@@ -94,7 +93,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="video.html?videoId=LCK" class="text-decoration-none">
+                    <a href="video.html?videoId=강퀴" class="text-decoration-none">
                         <div class="card bg-dark text-white">
                             <img src="resources/side5.png" class="card-img-top" alt="LCK">
                         </div>
