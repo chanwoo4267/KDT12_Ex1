@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>YouTube Clone - Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="video.css">
 </head>
+
 <body>
 
     <!-- 상단 네비게이션 바 -->
@@ -23,7 +25,7 @@
                     <img src="./resources/youtube_logo.png" alt="YouTube Logo" style="height: 60px;">
                 </a>
             </div>
-            
+
             <!-- 검색 바 -->
             <div class="search-bar">
                 <form class="d-flex">
@@ -50,98 +52,81 @@
     </nav>
 
     <div class="d-flex">
-        <!-- 사이드바 -->
-        <aside class="sidebar p-3" id="sidebar">
-            <nav class="nav flex-column">
-                <a class="nav-link active" href="#">
-                    <i class="material-icons me-2">home</i>
-                    <span>홈</span>
-                </a>
-                <a class="nav-link" href="#">
-                    <i class="material-icons me-2">flash_on</i>
-                    <span>Shorts</span>
-                </a>
-                <a class="nav-link" href="#">
-                    <i class="material-icons me-2">subscriptions</i>
-                    <span>구독</span>
-                </a>
-                <hr>
-                <a class="nav-link" href="#">
-                    <i class="material-icons me-2">video_library</i>
-                    <span>라이브러리</span>
-                </a>
-                <a class="nav-link" href="#">
-                    <i class="material-icons me-2">history</i>
-                    <span>시청 기록</span>
-                </a>
-            </nav>
-        </aside>
-
-        <!-- Main Content -->
+        <!-- 영상 -->
         <main class="main-content p-4">
-            <div class="row" id="video-grid">
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=G식백과" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/G식백과.png" class="card-img-top" alt="G식백과">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=침착맨" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/침착맨.png" class="card-img-top" alt="침착맨">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=흑백리뷰" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/흑백리뷰.png" class="card-img-top" alt="흑백리뷰">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=노마드코더" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/노마드코더.png" class="card-img-top" alt="노마드코더">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=LCK" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/LCK.png" class="card-img-top" alt="LCK">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=잇섭" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/잇섭.png" class="card-img-top" alt="잇섭">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=꽉변호사" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/꽉변호사.png" class="card-img-top" alt="꽉변호사">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="video.html?videoId=슥슥이" class="text-decoration-none">
-                        <div class="card bg-dark text-white">
-                            <img src="resources/슥슥이.png" class="card-img-top" alt="슥슥이">
-                        </div>
-                    </a>
-                </div>
-                 <a class="nav-link" src="./resources/G식백과.png"></a>
+            <div class="imbed-video">
+                <iframe src="https://www.youtube.com/embed/p-TzhoovtlE?si=rURQeKqCCAqWWiNj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </main>
+
+        <!-- 오른쪽 사이드바 -->
+        <aside class="sidebar" id="sidebar">
+            <div id="video-grid">
+                <div>
+                    <a href="video.html?videoId=슥슥이" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side1.png" class="card-img-top" alt="슥슥이">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=침착맨" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side2.png" class="card-img-top" alt="침착맨">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=흑백리뷰" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side3.png" class="card-img-top" alt="흑백리뷰">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=노마드코더" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side4.png" class="card-img-top" alt="노마드코더">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=LCK" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side5.png" class="card-img-top" alt="LCK">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=잇섭" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side6.png" class="card-img-top" alt="잇섭">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=꽉변호사" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side7.png" class="card-img-top" alt="꽉변호사">
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="video.html?videoId=슥슥이" class="text-decoration-none">
+                        <div class="card bg-dark text-white">
+                            <img src="resources/side1.png" class="card-img-top" alt="슥슥이">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </aside>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="index.js"></script>
+    <script src="video.js"></script>
 </body>
+
 </html>

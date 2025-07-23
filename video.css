@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: white;
+    align-items: center;
+}
+
+.search-bar {
+    flex: 1 1 0%;
+    max-width: 700px;
+}
+
+.search-bar form {
+    background: #000;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.search-bar-input, .search-bar-input:focus {
+    background-color: #000;
+    border-color: #6e6e6e;
+    border-radius: 20px;
+    color: #bbb;
+}
+
+.search-bar-input::placeholder {
+    color: #bbb;
+}
+
+.responsive-video {
+    position: relative;
+
+}
+
+.video-grid {
+    width: 10%;
+}
