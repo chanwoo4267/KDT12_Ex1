@@ -73,6 +73,7 @@ body {
 .main-content {
     width: 85%;
     margin-left: 15%;
+    padding: 1rem;
 }
 
 .card {
@@ -80,13 +81,18 @@ body {
     margin-bottom: 1rem;
 }
 
+/* 카드 호버 효과 */
+.card-img-top {
+    transition: transform 0.5s;
+}
 
+.card:hover .card-img-top {
+    transform: scale(1.08);
+}
 
-
+/* ---------- */
 /* video.html */
-
-
-
+/* ---------- */
 
 /* 영상 */
 .video-container {
