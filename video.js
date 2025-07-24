@@ -68,8 +68,10 @@ const videoInfo = {
     }
 };
 
+// URL Parameter (videoId) 가져오기
 const videoId = new URLSearchParams(window.location.search).get('videoId');
 
+// videoId에 맞는 영상 URL iframe 삽입
 if (videoId && videoSources[videoId]) {
     const iframe = document.querySelector('.video-player iframe');
     iframe.src = videoSources[videoId];

@@ -1,10 +1,8 @@
-/* 다크모드 */
 body {
     background-color: #0F0F0F;
     font-family: system-ui;
 }
 
-/* 전체 컨테이너 */
 .container, .container-fluid {
     display: flex;
 }
@@ -14,37 +12,35 @@ body {
     background-color : #0F0F0F;
 }
 
-/* 유튜브 로고 이미지 크기 */
+/* 유튜브 로고 이미지 크기 조절 */
 .logo-image {
     height: 4rem;
 }
 
-/* 햄버거 버튼 옆 공간 */
 .hamburger {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
-/* 아이콘과 글자 정렬 */
+/* 아이콘과 글자 가운데 정렬 */
 .material-icons {
     vertical-align: middle;
 }
 
-/* 흰색 아이콘 */
 .btn, .nav-link, .video-info, .comments-section{
     color: white;
 }
 
+/* 반응형 좌측 사이드바 메뉴 크기 */
 .nav-link {
     font-size: 1vw;
 }
 
-/* 상단 검색창 */
 .search-bar {
     flex: 1 1 0%;
     max-width: 40rem;
 }
 
-/* 상단 검색창 입력부 */
+/* 상단 검색창 입력부 레이아웃 및 배경색 */
 .search-bar-input, .search-bar-input:focus {
     background-color: #0F0F0F;
     border-color: #6e6e6e;
@@ -52,24 +48,26 @@ body {
     color: #bbb;
 }
 
-/* 상단 검색창 placeholder */
+/* 상단 검색창 placeholder 글자 색깔 */
 .search-bar-input::placeholder {
     color: #bbb;
 }
 
-/* 왼쪽 사이드바 */
+/* 왼쪽 사이드바 화면에 고정되도록 설정 */
 .sidebar-left {
     position: fixed;
     width: 15%;
 }
 
-/* 왼쪽 사이드바 구분선 */
-.sidebar-left hr {
+/* 구분선 <hr> */
+hr {
     border-top: 0.05rem solid #666;
     opacity: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-/* 동영상 */
+/* 메인 영역 - 사이드바 15% + 메인영역 85% */
 .main-content {
     width: 85%;
     margin-left: 15%;
@@ -90,9 +88,66 @@ body {
     transform: scale(1.08);
 }
 
-/* ---------- */
-/* video.html */
-/* ---------- */
+/* 내 계정정보 드롭다운 */
+.account-menu {
+    position: absolute;
+    right: 1rem;
+    top: 120%;
+    background: #3d3d3d;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    
+    /* 내부 스크롤 */
+    max-height: 85vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.account-menu .dropdown-item {
+    color: #fff;
+    text-align: left;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+}
+
+.account-menu .dropdown-item:hover {
+    background: #333;
+}
+
+/* 내 계정정보 드롭다운 - 로그인 유저 정보 */
+
+.user-profile {
+    color: white;
+    text-align: left;
+}
+
+.profile-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-icon {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.profile-channel-link-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.profile-channel-link {
+    color: #419ef0;
+    text-decoration: none;
+}
+
+/* ------------------------------ */
+/* --------- video.html --------- */
+/* ------------------------------ */
 
 /* 영상 */
 .video-container {
