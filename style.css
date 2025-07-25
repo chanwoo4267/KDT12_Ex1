@@ -19,6 +19,13 @@ body {
 
 .hamburger {
     padding-left: 1rem;
+    transition: none;
+}
+
+.hamburger:hover, .hamburger:focus {
+    color: white;
+    background-color: #303030;
+    border-radius: 10rem;
 }
 
 /* 아이콘과 글자 가운데 정렬 */
@@ -30,14 +37,73 @@ body {
     color: white;
 }
 
+.text-blue {
+    color: rgb(11, 151, 232);
+    font-size: 0.8vw;
+    text-decoration: none;
+}
+
 /* 반응형 좌측 사이드바 메뉴 크기 */
 .nav-link {
     font-size: 1vw;
+    transition: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: white !important;
+    background-color: #303030;
+    border-radius: 1rem;
+    transition: none;
+}
+
+.red-icons {
+    color: red;
+}
+
+.sidebar-small-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+}
+
+.small-link {
+    color: #6e6e6e;
+    font-size: 0.8vw !important;
+    padding: 0;
+    margin: 0 0 0 0.5rem;
+    text-decoration: none;
+}
+
+.small-link:hover, .nav-link:focus {
+    color: #6e6e6e !important;
+    background-color: #0F0F0F;
+}
+
+.sidebar-copyright {
+    color: #6e6e6e;
+    font-size: 0.7vw !important;
+    margin: 1rem;
 }
 
 .search-bar {
     flex: 1 1 0%;
     max-width: 40rem;
+}
+
+.nav-link .material-icons {
+    margin-right: 1rem;
+}
+
+.nav-link .sidebar-left-bigtext {
+    vertical-align: middle;
+    font-size: 1.2vw;
+}
+
+.sidebar-left-text {
+    color: white;
+    vertical-align: middle;
+    font-size: 1.2vw;
+    margin: 0 0 1rem 1rem;
 }
 
 /* 상단 검색창 입력부 레이아웃 및 배경색 */
@@ -53,10 +119,24 @@ body {
     color: #bbb;
 }
 
+/* 상단 바 + 버튼 디자인 */
+.add-btn {
+    background-color: #303030;
+    border-radius: 2rem;
+}
+
+.add-btn-text {
+    vertical-align: middle;
+}
+
 /* 왼쪽 사이드바 화면에 고정되도록 설정 */
 .sidebar-left {
     position: fixed;
     width: 15%;
+
+    max-height: 85vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 
 /* 구분선 <hr> */
@@ -72,6 +152,13 @@ hr {
     width: 85%;
     margin-left: 15%;
     padding: 1rem;
+}
+
+.category-btn {
+    background-color: #303030;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    margin: 0 1rem 1rem 0;
 }
 
 .card {

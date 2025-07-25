@@ -38,9 +38,12 @@
 
             <!-- 사용자 아이콘 및 알림 -->
             <div class="d-flex">
-                <button class="btn">
-                    <span class="material-icons">add</span>
-                </button>
+                <div class="add-btn">
+                    <button class="btn">
+                        <span class="material-icons">add</span>
+                        <span class="add-btn-text">만들기</span>
+                    </button>
+                </div>
                 <button class="btn">
                     <span class="material-icons">notifications</span>
                 </button>
@@ -133,31 +136,204 @@
         <aside class="sidebar-left">
             <nav class="nav flex-column">
                 <a class="nav-link" href="./index.html">
-                    <span class="material-icons me-2">home</span>
+                    <span class="material-icons">home</span>
                     <span>홈</span>
                 </a>
                 <a class="nav-link" href="#">
-                    <span class="material-icons me-2">flash_on</span>
+                    <span class="material-icons">flash_on</span>
                     <span>Shorts</span>
                 </a>
                 <a class="nav-link" href="#">
-                    <span class="material-icons me-2">subscriptions</span>
+                    <span class="material-icons">subscriptions</span>
                     <span>구독</span>
                 </a>
                 <hr>
                 <a class="nav-link" href="#">
-                    <span class="material-icons me-2">video_library</span>
-                    <span>라이브러리</span>
+                    <span class="sidebar-left-bigtext">내 페이지</span>
+                    <span class="material-icons">chevron_right</span>
                 </a>
                 <a class="nav-link" href="#">
-                    <span class="material-icons me-2">history</span>
+                    <span class="material-icons">history</span>
                     <span>시청 기록</span>
                 </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">playlist_play</span>
+                    <span>재생목록</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">slideshow</span>
+                    <span>내 동영상</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">schedule</span>
+                    <span>나중에 볼 동영상</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">thumb_up</span>
+                    <span>좋아요 표시한 동영상</span>
+                </a>
+                <hr>
+                <div class="sidebar-left-text">
+                    <span>구독</span>
+                </div>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">account_circle</span>
+                    <span>구독 목록 1</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">account_circle</span>
+                    <span>구독 목록 2</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">account_circle</span>
+                    <span>구독 목록 3</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">account_circle</span>
+                    <span>구독 목록 4</span>
+                </a>
+                <hr>
+                <div class="sidebar-left-text">
+                    <span>탐색</span>
+                </div>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">local_mall</span>
+                    <span>쇼핑</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">music_note</span>
+                    <span>음악</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">movie</span>
+                    <span>영화</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">cell_tower</span>
+                    <span>실시간</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">sports_esports</span>
+                    <span>게임</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">sports_gymnastics</span>
+                    <span>스포츠</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">school</span>
+                    <span>학습 프로그램</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">podcasts</span>
+                    <span>팟캐스트</span>
+                </a>
+                <hr>
+                <div class="sidebar-left-text">
+                    <span>YouTube 더보기</span>
+                </div>
+                <a class="nav-link" href="#">
+                    <span class="material-icons red-icons">paid</span>
+                    <span>YouTube Premium</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons red-icons">video_camera_front</span>
+                    <span>Youtube 스튜디오</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons red-icons">music_video</span>
+                    <span>Youtube Music</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons red-icons">child_care</span>
+                    <span>Youtube Kids</span>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">settings</span>
+                    <span>설정</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">flag</span>
+                    <span>신고 기록</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">info</span>
+                    <span>고객센터</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="material-icons">chat</span>
+                    <span>의견 보내기</span>
+                </a>
+                <hr>
+                <div class="sidebar-small-links">
+                    <a class="nav-link small-link" href="#">정보</a>
+                    <a class="nav-link small-link" href="#">보도자료</a>
+                    <a class="nav-link small-link" href="#">저작권</a>
+                    <a class="nav-link small-link" href="#">문의하기</a>
+                    <a class="nav-link small-link" href="#">크리에이터</a>
+                    <a class="nav-link small-link" href="#">광고</a>
+                    <a class="nav-link small-link" href="#">개발자</a>
+                    <a class="nav-link small-link" href="#">약관</a>
+                    <a class="nav-link small-link" href="#">개인정보처리방침</a>
+                    <a class="nav-link small-link" href="#">정책 및 안전</a>
+                </div>
+                <div class="sidebar-copyright">
+                    <span>
+                        © 2025 Google LLC, Sundar Pichai, 1600 Amphitheatre Parkway, Mountain View CA 94043, USA, 0807-882-594 (무료), yt-support-solutions-kr@google.com, 호스팅: Google LLC, 
+                    </span>
+                    <a href="#" class="text-blue">사업자정보, </a>
+                    <a href="#" class="text-blue">불법촬영물 신고</a>
+                    <span>
+                        크리에이터들이 유튜브 상에 게시, 태그 또는 추천한 상품들은 판매자들의 약관에 따라 판매됩니다. 유튜브는 이러한 제품들을 판매하지 않으며, 그에 대한 책임을 지지 않습니다.
+                    </span>
+                </div>
             </nav>
         </aside>
 
         <!-- Main Content -->
         <main class="main-content">
+
+            <!-- 상단 카테고리 버튼 -->
+            <div class="categories">
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>전체</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>게임</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>음악</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>믹스</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>최근에 업로드된 동영상</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>감상한 동영상</span>
+                    </button>
+                </div>
+                <div class="category-btn">
+                    <button class="btn">
+                        <span>새로운 맞춤형 동영상</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 영상 -->
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <a href="video.html?videoId=G식백과" class="text-decoration-none">
