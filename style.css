@@ -328,3 +328,36 @@ hr {
         padding: 0.7rem;
     }
 }
+
+/* 구독 화면 */
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe-text {
+    color: white;
+}
+
+.subscribe-btn {
+    display: flex;
+    margin-left: auto;
+}
+
+.subscribe-btn-manage {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.subscribe-btn-manage:hover, .subscribe-btn-manage:focus {
+    background-color: #4e87a848;
+    border-radius: 2rem;
+}
+
+.subscribe-btn-board:hover, .subscribe-btn-list:hover {
+    background-color: #303030;
+    border-radius: 10rem;
+    color: white;
+}
