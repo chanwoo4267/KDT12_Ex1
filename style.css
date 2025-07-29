@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: white !important;
+    color: white;
     background-color: #303030;
     border-radius: 1rem;
     transition: none;
@@ -68,20 +68,20 @@ body {
 
 .small-link {
     color: #868686;
-    font-size: 0.8vw !important;
+    font-size: 0.8vw;
     padding: 0;
     margin: 0 0 0 0.5rem;
     text-decoration: none;
 }
 
 .small-link:hover, .nav-link:focus {
-    color: #6e6e6e !important;
+    color: #6e6e6e;
     background-color: #0F0F0F;
 }
 
 .sidebar-copyright {
     color: #6e6e6e;
-    font-size: 0.7vw !important;
+    font-size: 0.7vw;
     margin: 1rem;
 }
 
@@ -324,7 +324,7 @@ hr {
     }
 
     .video-container, .sidebar-right {
-        width: 100% !important;
+        width: 100%;
         padding: 0.7rem;
     }
 }
