@@ -172,12 +172,38 @@ hr {
 }
 
 /* 카드 호버 효과 */
-.card-img-top {
+.video-link {
     transition: transform 0.5s;
 }
 
-.card:hover .card-img-top {
+.video-link:hover, .video-link:focus {
     transform: scale(1.08);
+}
+
+/* 비디오 카드 관련 */
+.video-meta-img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.video-meta-text {
+    color: #6e6e6e;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+.video-meta-text-name {
+    color: white;
+    font-size: 1rem;
+}
+
+.video-meta-text p {
+    margin: 0;
+}
+
+.video-meta-text-name {
+    margin-bottom: 0.5rem !important;
 }
 
 /* 내 계정정보 드롭다운 */
@@ -235,6 +261,10 @@ hr {
 .profile-channel-link {
     color: #419ef0;
     text-decoration: none;
+}
+
+.video-meta {
+    display: flex;
 }
 
 /* ------------------------------ */

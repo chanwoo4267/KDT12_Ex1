@@ -6,7 +6,7 @@ const videoSources = {
     '3': 'https://www.youtube.com/embed/-8JTwRH23VY?si=l7fUHl5qjpKlsuQU',
     '1': 'https://www.youtube.com/embed/ArV33qYgLzs?si=52RK7C17UQpLp1AC',
     '5': 'https://www.youtube.com/embed/WmHDrKXT11Y?si=AlrVa6ufyXAWIUGa',
-    '2': 'https://www.youtube.com/embed/p-TzhoovtlE?si=cb0tkztKmd2ywXG_',
+    '2': 'https://www.youtube.com/embed/tkhOcHMjdSY?si=gYmfhVIPhPXHibMg',
 };
 
 const videoInfo = {
@@ -60,7 +60,7 @@ const videoInfo = {
         description: '또.. 통일보다 빨랐습니다 ㅋㅋ 그토록 오지 않을 것 같던 애플페이 교통카드가 한달전쯤 티머니에서 공식적으로 런칭 소식을 알렸고...'
     },
     '2': {
-        title: '꽉변호사는 왜 특정 사건 안다뤄줘요?',
+        title: '카레이서는 사고나면 과실비율 더 나와요?',
         channel: '꽉 변호사 - 법률 토막상식 애니메이션',
         views: '2.9만',
         uploadDate: '2024. 7. 24.',
@@ -85,6 +85,7 @@ if (videoId && videoInfo[videoId]) {
     document.getElementById('video-description').textContent = info.description;
 }
 
+// 댓글
 document.getElementById('add-comment-btn').addEventListener('click', () => {
     const commentInput = document.getElementById('comment-input');
     const commentText = commentInput.value;
@@ -97,6 +98,7 @@ document.getElementById('add-comment-btn').addEventListener('click', () => {
     }
 });
 
+// 유저 프로필 버튼
 document.addEventListener('DOMContentLoaded', () => {
     const accountBtn = document.getElementById('account-btn');
     const accountMenu = document.getElementById('account-menu');

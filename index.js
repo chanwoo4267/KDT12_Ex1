@@ -1,3 +1,4 @@
+// 유저 프로필 버튼
 document.addEventListener('DOMContentLoaded', () => {
     const accountBtn = document.getElementById('account-btn');
     const accountMenu = document.getElementById('account-menu');
