@@ -12,59 +12,67 @@ const videoSources = {
 const videoInfo = {
     '8': {
         title: '업계의 \'구독 악마설\'에 게이머들이 반박하다',
-        channel: '김성회의 8',
+        channel: '김성회의 G식백과',
         views: '24만',
         uploadDate: '2025. 7. 23.',
-        description: "📪 Business Contact: SANDBOX NETWORK"
+        description: "📪 Business Contact: SANDBOX NETWORK",
+        subscriber: '94.7만명'
     },
     '4': {
         title: '허허 개판이네',
         channel: '슥슥이',
         views: '5.1만',
         uploadDate: '2024. 7. 21.',
-        description: '2025년 6월 22일 방송 하이라이트입니다'
+        description: '2025년 6월 22일 방송 하이라이트입니다',
+        subscriber: '10만명'
     },
     '6': {
         title: '\'진격의 거인(Attack on Titan)\' 4기 Part2 감상회',
         channel: '침착맨',
         views: '56만',
         uploadDate: '2024. 7. 24.',
-        description: '침같이 보면 좋은 추천 영상 : \'진격의 거인(Attack on Titan)\' 4기 Part1 감상회'
+        description: '침같이 보면 좋은 추천 영상 : \'진격의 거인(Attack on Titan)\' 4기 Part1 감상회',
+        subscriber: '289만명'
     },
     '7': {
         title: '인스타 에서 난리가 났대서 먹어봤는데...',
         channel: '흑백리뷰',
         views: '13만',
         uploadDate: '2024. 7. 23.',
-        description: '#흑백리뷰 #멜론 #과일 멜론 먹방 리뷰'
+        description: '#흑백리뷰 #멜론 #과일 멜론 먹방 리뷰',
+        subscriber: '75만명'
     },
     '3': {
         title: '이제 대세는 Claude Code!? 찐 꿀팁 대방출 🔥',
         channel: '노마드코더',
         views: '3.6만',
         uploadDate: '2024. 7. 19.',
-        description: '자비없는 성능....!'
+        description: '자비없는 성능....!',
+        subscriber: '50만명'
     },
     '1': {
-        title: '07.13｜GEN vs T1 결승전 하이라이트｜25 MSI 수염펍',
+        title: '07.13 | GEN vs T1 결승전 하이라이트 | 25 MSI 수염펍',
         channel: '강퀴TV',
         views: '8.8만',
         uploadDate: '2024. 7. 14.',
-        description: '다시보기 https://chzzk.naver.com/video/8215709'
+        description: '다시보기 https://chzzk.naver.com/video/8215709',
+        subscriber: '8.33만명'
     },
     '5': {
         title: '애플페이 티머니 교통카드 정식 출시&궁금한점 총정리!',
         channel: 'ITSub잇섭',
         views: '56만',
         uploadDate: '2024. 7. 20.',
-        description: '또.. 통일보다 빨랐습니다 ㅋㅋ 그토록 오지 않을 것 같던 애플페이 교통카드가 한달전쯤 티머니에서 공식적으로 런칭 소식을 알렸고...'
+        description: '또.. 통일보다 빨랐습니다 ㅋㅋ 그토록 오지 않을 것 같던 애플페이 교통카드가 한달전쯤 티머니에서 공식적으로 런칭 소식을 알렸고...',
+        subscriber: '274만명'
     },
     '2': {
         title: '카레이서는 사고나면 과실비율 더 나와요?',
         channel: '꽉 변호사 - 법률 토막상식 애니메이션',
         views: '2.9만',
         uploadDate: '2024. 7. 24.',
-        description: '영상의 이스터에그를 찾아보세요! 오늘은 어떤 이스터에그가 왜 있을까요?'
+        description: '영상의 이스터에그를 찾아보세요! 오늘은 어떤 이스터에그가 왜 있을까요?',
+        subscriber: '6.07만명'
     }
 };
 
@@ -83,6 +91,8 @@ if (videoId && videoInfo[videoId]) {
     document.getElementById('channel-name').textContent = info.channel;
     document.getElementById('views-date').textContent = `조회수 ${info.views}회 • ${info.uploadDate}`;
     document.getElementById('video-description').textContent = info.description;
+    document.getElementById('video-channel-img').src = 'resources/thumbnail_' + videoId + '.png';
+    document.getElementById('channel-subscribers').textContent = info.subscriber;
 }
 
 // 댓글
