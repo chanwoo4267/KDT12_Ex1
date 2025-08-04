@@ -41,7 +41,9 @@ This project is creating Youtube Clone page using HTML, CSS, Javascript.
 
 # 3. WBS (Work Breakdown Structure)
 
-(WBS 일정관리표)
+<img width="986" height="401" alt="image" src="https://github.com/user-attachments/assets/b16d4903-826b-46be-81e5-f96da8a4e705" />
+
+[(WBS)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/일정표.numbers)
 
 # 4. Features
 
@@ -221,4 +223,6 @@ Just changed filename to `img_1`, `thumbnail_2`, ...
 
 # 6. Result Report
 
-(결과 보고서)
+<img width="1423" height="797" alt="image" src="https://github.com/user-attachments/assets/10276e5c-3ff4-41b4-bcc0-5d06eaf40b11" />
+
+[(결과 보고서)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/발표자료.key)
