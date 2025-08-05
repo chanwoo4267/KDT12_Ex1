@@ -41,7 +41,7 @@ This project is creating Youtube Clone page using HTML, CSS, Javascript.
 
 # 3. WBS (Work Breakdown Structure)
 
-<img width="986" height="401" alt="image" src="https://github.com/user-attachments/assets/b16d4903-826b-46be-81e5-f96da8a4e705" />
+<img width="1032" height="404" alt="image" src="https://github.com/user-attachments/assets/f44d2f19-ed15-4c59-a9ba-8ad508bcfee2" />
 
 [(WBS)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/일정표.numbers)
 
