@@ -43,7 +43,7 @@ This project is creating Youtube Clone page using HTML, CSS, Javascript.
 
 <img width="1032" height="404" alt="image" src="https://github.com/user-attachments/assets/f44d2f19-ed15-4c59-a9ba-8ad508bcfee2" />
 
-[(WBS)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/일정표.numbers)
+[(WBS)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/일정표_박찬우.pdf)
 
 # 4. Features
 
@@ -225,4 +225,4 @@ Just changed filename to `img_1`, `thumbnail_2`, ...
 
 <img width="1423" height="797" alt="image" src="https://github.com/user-attachments/assets/10276e5c-3ff4-41b4-bcc0-5d06eaf40b11" />
 
-[(결과 보고서)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/발표자료.key)
+[(결과 보고서)](https://github.com/chanwoo4267/KDT12_Ex1/blob/main/docs/발표자료_박찬우.pdf)
